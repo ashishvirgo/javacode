@@ -7,10 +7,11 @@ public class testEx1 {
         System.out.println("a="+a);
         System.out.println("b="+b);
         System.out.println("c="+c);
+        
         }
         catch(Exception e){
-            e.getStackTrace();
-            System.out.println("Change the value of b"+e);   
+            e.printStackTrace();
+            System.out.println("Change the value of b"+e.getStackTrace());   
         }
     }
 }
