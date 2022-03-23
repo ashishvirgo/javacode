@@ -9,9 +9,12 @@ public class testEx1 {
         System.out.println("c="+c);
         
         }
-        catch(Exception e){
-            e.printStackTrace();
-            System.out.println("Change the value of b"+e.getStackTrace());   
+        finally{
+            System.out.println("Inside Finally");
         }
+        /*catch(Exception e){
+            e.printStackTrace();
+            System.out.println("Change the value of b");   
+        }*/
     }
 }
